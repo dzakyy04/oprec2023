@@ -1,0 +1,128 @@
+body {
+    overflow-x: hidden;
+    height: 100vh;
+    background-image: url('/img/bgpolos.svg');
+}
+
+.content {
+    height: 90%;
+}
+
+.header .image .panjang {
+    width: 500px;
+}
+
+.left-side {
+    width: 50%;
+}
+
+.left-side h1 {
+    font-size: 3.5rem;
+}
+
+.left-side p {
+    font-size: 1.25rem;
+}
+
+.square {
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+    background-color: var(--purple);
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.square.first {
+    margin: 0;
+}
+
+.square .time {
+    font-family: var(--poppins);
+    display: flex;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.square .desc {
+    font-family: var(--poppins);
+    display: flex;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.right-side {
+    width: 40%;
+}
+
+.right-side img {
+    max-width: 300px;
+}
+
+.btn-outline-purple {
+    border: 1px solid var(--purple);
+    color: var(--purple);
+}
+
+.btn-outline-purple:hover {
+    border: 1px solid var(--purple);
+    color: white;
+    background-color: var(--purple);
+}
+
+#form {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column-reverse;
+    }
+
+    .header .image .panjang {
+        display: none;
+    }
+
+    .header .image .pendek {
+        display: inline !important;
+        max-width: 250px;
+    }
+
+    .left-side {
+        margin-top: 1rem;
+        width: 100%;
+        align-items: center;
+    }
+
+    .left-side h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .left-side p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .right-side {
+        width: 100%;
+    }
+
+    .right-side img {
+        max-width: 200px;
+    }
+
+    .countdown {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .square {
+        margin: 0 5px !important;
+    }
+}
