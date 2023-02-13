@@ -8,7 +8,7 @@ Clone Repositori
 
     git clone https://github.com/HMIF-UNSRI/oprec2023.git
 
-Switch to the repo folder
+Pindah ke folder repo
 
     cd oprec2023
 
